@@ -2,13 +2,11 @@
 # Handle user authentication and session management? Implement a secure login system.
 In this I have implemented DJANGO for Backend for User Handling I used DRF dajango Rest Framwork 
 How to access it 
-## Six Steps for fully working API
-<li>Install Django and DRF
-<li>Set up Django Model 
-<li> Set up Serializers
-<li> Set up views
-<li> Set up urls
-<li> Test API
+```bash
+$ pip install django
+$ pip install djangorestframework
+$ pip install requirements.txt
+```
 
 ## Installation
 ```bash
@@ -18,6 +16,7 @@ $ django-admin startproject project name
 $ python manage.py startapp yourapp 
 $ python manage.py runserver
 ```
+
 
 * After all the steps do for database
 ```bash
